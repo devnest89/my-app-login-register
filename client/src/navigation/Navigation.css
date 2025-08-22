@@ -1,0 +1,75 @@
+
+body {
+
+  background-color: #000000;
+
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 4%;
+    
+}
+
+.box-two-navigation {
+    background-color: rgb(45, 50, 45);
+    color: white;
+    padding: 80px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 8px rgb(89, 88, 88);
+    border: 2px solid rgb(45, 50, 45);
+    transition: 0.3s ease;
+}
+
+.box-two-navigation:hover {
+   border: 2px solid rgb(73, 77, 73);
+   background-color: rgb(47, 51, 47);
+   cursor: pointer;
+}
+
+.images-users > img {
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    margin-bottom: 15px;
+}
+ .information-about-users > h1 ,  .information-about-users > p , .box-btns{
+   margin-bottom: 15px;
+}
+ .information-about-users > h1 ,  .information-about-users > p , .box-btns{
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+.information-about-users > h1 mark, .information-about-users > p mark {
+    background-color: rgb(45, 50, 45);
+    color: white;
+    margin-left: 5px;
+
+}
+.box-btns > button , .update > button{
+    background-color: #000000;
+    padding: 6px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    border: 1px solid black;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s ease;
+    border-radius: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 15px;
+}
+.box-btns > button:hover{
+    background-color: #222222;
+    padding: 6px;
+    width: 200px;
+    height: 40px;
+    color: rgb(141, 160, 205);
+    border: 1px solid rgb(111, 111, 111);
+    outline: none;
+    cursor: pointer;
+}

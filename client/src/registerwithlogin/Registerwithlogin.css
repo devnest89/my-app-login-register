@@ -1,0 +1,127 @@
+
+body {
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Register {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.box-register-login{
+    margin: 11%;
+    overflow: hidden;
+    background-color: rgb(22, 29, 36);
+    outline: 2px solid rgb(99, 70, 70);
+    outline-offset: 0.2px;
+    border-radius: 25px;
+    transition: 0.3s ease;
+    
+}
+.box-register-login:hover {
+    background-color: rgb(34, 44, 54);
+    border: 1px solid rgb(83, 96, 109);
+
+}
+.top-text-server {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+}
+.box-form-register-login {
+    /* border: 2px solid rgb(69, 101, 110); */
+    position: relative;
+    border-radius: 20px;
+    color: white;
+    margin: 3px;
+    cursor: pointer;
+  
+}
+.box-form-register-login:hover {
+   
+  
+ }
+.box-form-register-login::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background-color: rgb(255, 0, 0);
+    box-shadow: 0px 4px 15px rgb(171, 88, 88);
+    border-radius: 40%;
+    width: 99%;
+    height: 99%;
+    animation: infinite;
+    animation-duration: 6s;
+    animation-delay: 6s;
+    animation-name: spams;
+    margin-left: -302px;
+    margin-top: 10px;
+}
+
+@keyframes spams {
+    0% {
+        transform: rotate(0deg);
+    /* background-color: rgb(255, 0, 0); */
+
+    }
+    30% {
+        transform: rotate(100deg);
+    /* background-color: yellow; */
+    
+}
+40% {
+    transform: rotate(150deg);
+    /* background-color: rgb(8, 99, 179); */
+}
+60% {
+    transform: rotate(200deg);
+    /* background-color: rgb(127, 156, 175); */
+}
+100% {
+    transform: rotate(360deg);
+    /* background-color: rgb(89, 45, 86); */
+    }
+    
+}
+.My-form-login-register{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.My-form-login-register > input , .My-form-login-register > label , .My-form-login-register > select{
+    margin-bottom: 12px;
+}
+.If-you-dont-have-account-click-here{
+    margin-top: -30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.MyBtns-server {
+   width: 150px;
+   background-color: black;
+   color: white;
+   border: 1px solid black;
+   cursor: pointer;
+   margin: 15px;
+   padding: 6px;
+   border-radius: 10px;
+   transition: 0.3s ease;
+}
+
+.MyBtns-server:hover {
+    border: 1px solid rgb(120, 116, 116);
+    background-color: rgb(25, 25, 25);
+}

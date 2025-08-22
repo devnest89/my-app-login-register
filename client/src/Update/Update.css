@@ -1,0 +1,59 @@
+body {
+    color: white;
+}
+
+
+.box-update {
+  background-color: rgb(38, 47, 65);
+  padding: 70px;
+  margin: 10% 5% 0px 5%;
+  border-radius: 15px;
+  border: 2px solid rgb(67, 75, 98);
+  transition: 0.3s ease;
+}
+.box-update:hover {
+    cursor: pointer;
+    border: 2px solid rgb(104, 111, 131);
+    box-shadow: 0px 3px 7px rgb(67, 75, 98);
+    background-color: rgb(47, 58, 79);
+}
+
+.information-users-update > label {
+    margin-bottom: 3px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.information-users-update input {
+    margin-bottom: 10px;
+    border-radius: 4px;
+    outline: none;
+
+}
+.information-users-update input:focus {
+    border: 2px solid rgb(43, 51, 67);
+
+}
+.box-update , .information-users-update , .image-users-update , .myBTnss{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.myBTnss  input {
+    width: 150px;
+    height: 30px;
+    background-color: #000000;
+    color: white;
+    border: 2px solid #000000;
+    outline: 2px solid #000000;
+    transition: 0.3s ease;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.myBTnss input:hover {
+    border: 2px solid #000000;
+    outline: 2px solid rgb(77, 75, 75);
+    box-shadow: 0px 4px 7px rgb(100, 113, 127);
+}
